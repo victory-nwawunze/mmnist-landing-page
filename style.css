@@ -10,6 +10,11 @@ body {
     height: 20px;
     overflow: hidden;
 }
+.banner-text-font-style > span{
+    font-weight: bolder;
+    text-transform: capitalize;
+    cursor: pointer;
+}
 
 .landing-page-container-style {
     margin: auto;
@@ -114,7 +119,7 @@ li>a {
 .list-style{
     list-style: none;
     padding-left: 10px;
-    /* margin-left: 8px; */
+    cursor: pointer;
     border-radius: 50%;
     background-color: #2B2B2B;
     color: white;
